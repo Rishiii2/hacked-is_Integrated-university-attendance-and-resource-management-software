@@ -41,6 +41,17 @@ export default function SignupForm() {
         <option value="faculty">Faculty</option>
         <option value="guest">Guest</option>
       </select>
+      // In Signup or Profile.js
+<label>Select your area of interest:</label>
+<select name="interest" value={form.interest} onChange={handleChange}>
+  <option value="Coding">Coding</option>
+  <option value="Art">Art</option>
+  <option value="Sports">Sports</option>
+  <option value="Science">Science</option>
+  <option value="Music">Music</option>
+  // Add more options as needed
+</select>
+
       <input type="email" name="email" value={formData.email} placeholder="Email Address" onChange={handleChange} required />
       <input type="password" name="password" value={formData.password} placeholder="Password" onChange={handleChange} required />
       <button type="submit">Register</button>

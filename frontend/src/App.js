@@ -7,7 +7,7 @@ import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import FeedbackPage from "./pages/FeedbackPage";
 import Workspace from "./pages/Workspace";
-
+import RecommendedEvents from "./pages/RecommendedEvents";
 
 
 
@@ -22,6 +22,7 @@ function App() {
         <Link style={{ color: "#fff", fontWeight: "bold" }} to="/society">Society Event Page</Link>
         <Link style={{ color: "#fff", fontWeight: "bold" }} to="/feedback">Feedback</Link>
         <Link style={{ color: "#fff", fontWeight: "bold" }} to="/workspace">Workspace</Link>
+        <Link style={{ color: "#fff", fontWeight: "bold" }} to="/RecommendedEvents">Recommended Events</Link>
         <Link style={{ color: "#fff", fontWeight: "bold" }} to="/login">Login</Link>
         <Link style={{ color: "#fff", fontWeight: "bold" }} to="/signup">Sign Up</Link>
         
@@ -37,7 +38,7 @@ function App() {
         <Route path="/feedback" element={<FeedbackPage />} />
 <Route path="/signup" element={<Signup />} />
 <Route path="/login" element={<Login />} />
-
+<Route path="/RecommendedEvents" element={<RecommendedEvents />} />
 <Route path="/workspace" element={<Workspace />} />
 
       </Routes>
