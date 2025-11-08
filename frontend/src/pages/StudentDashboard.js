@@ -21,7 +21,9 @@ function StudentDashboard() {
       </header>
 
       <section className="stud-card attendance-card">
-        <h3>Attendance</h3>
+        <h3>📅 Attendance Overview</h3>
+<p>🟢 Present: XX  🔴 Absent: XX</p>
+
         <div className="attendance-percent">
           <span>{attendance}%</span>
         </div>
