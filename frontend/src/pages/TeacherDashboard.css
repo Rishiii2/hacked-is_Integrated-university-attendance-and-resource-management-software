@@ -1,0 +1,105 @@
+.teacher-dashboard {
+  background: #f5f6fa;
+  min-height: 100vh;
+  padding: 2rem;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+header {
+  text-align: left;
+  margin-bottom: 2rem;
+}
+.teacher-id {
+  color: #6153cc;
+  font-size: 1em;
+  background: #e3e2fa;
+  padding: 0.3em 0.9em;
+  border-radius: 12px;
+  display: inline-block;
+  margin-top: 0.5em;
+}
+.teacher-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px #0001;
+  margin-bottom: 2.3rem;
+  padding: 1.1rem 1.6rem;
+}
+.roster-list {
+  list-style: none;
+  padding-left: 0;
+}
+.roster-list li {
+  padding: 0.5em 0.8em;
+  border-radius: 30px;
+  background: #6153cc22;
+  margin-bottom: 0.35em;
+  color: #333;
+}
+.notif-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.notif-list li {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  padding: 0.65em 0.6em;
+  border-radius: 10px;
+  margin-bottom: 0.4em;
+  background: #f8fafc;
+}
+.notif-type {
+  color: #fff;
+  background: #4ad0e4;
+  border-radius: 9px;
+  font-size: 0.94em;
+  padding: 0.13em 0.7em;
+}
+.notif-priority {
+  font-size: 0.92em;
+  padding: 0.13em 0.67em;
+  color: #fff;
+  border-radius: 8px;
+  background: #6153cc;
+  margin-left: auto;
+}
+.notif-priority-high { background: #e07c7c !important; }
+.notif-priority-medium { background: #e3c06e !important; }
+.notif-priority-low { background: #6ee3a4 !important; }
+
+.upcoming-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.upcoming-list li {
+  display: flex;
+  gap: 2em;
+  padding: 0.7em 0;
+  border-bottom: 1px solid #f0f0f0;
+  align-items: center;
+}
+.class-subject {
+  color: #6153cc;
+  font-weight: bold;
+  min-width: 120px;
+}
+.class-date, .class-time {
+  color: #888;
+  font-size: 1em;
+}
+.syllabus-list {
+  list-style: none;
+  padding-left: 0;
+}
+.syllabus-list li {
+  background: #e3e2fa;
+  border-radius: 8px;
+  display: inline-block;
+  color: #6153cc;
+  font-weight: 500;
+  margin: 0.4em 0.7em 0.4em 0;
+  padding: 0.38em 1em;
+  font-size: 1em;
+}

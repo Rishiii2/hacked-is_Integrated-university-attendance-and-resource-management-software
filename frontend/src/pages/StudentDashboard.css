@@ -1,0 +1,91 @@
+.stud-dashboard {
+  background: #f5f6fa;
+  min-height: 100vh;
+  padding: 2rem;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+header {
+  text-align: left;
+  margin-bottom: 2rem;
+}
+.stud-id {
+  color: #6153cc;
+  font-size: 1em;
+  background: #e3e2fa;
+  padding: 0.3em 0.9em;
+  border-radius: 12px;
+  display: inline-block;
+  margin-top: 0.5em;
+}
+.stud-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px #0001;
+  margin-bottom: 2.3rem;
+  padding: 1.1rem 1.6rem;
+}
+.attendance-percent {
+  font-size: 2.6em;
+  color: #6ee3a4;
+  font-weight: bold;
+  margin: 0.85em 0;
+}
+.attendance-warning {
+  color: #e07c7c;
+  background: #ffeaea;
+  padding: 0.5em 1em;
+  border-radius: 10px;
+  font-size: 1em;
+}
+.class-list, .club-msg-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.class-list li {
+  display: flex;
+  gap: 2em;
+  padding: 0.7em 0;
+  border-bottom: 1px solid #f0f0f0;
+  align-items: center;
+}
+.class-subject {
+  color: #6153cc;
+  font-weight: bold;
+  min-width: 80px;
+}
+.class-date, .class-time {
+  color: #888;
+  font-size: 1em;
+}
+.club-msg-list li {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  padding: 0.7em 0.5em;
+  border-radius: 10px;
+  margin-bottom: 0.4em;
+  background: #f8fafc;
+}
+.msg-type {
+  color: #fff;
+  background: #4ad0e4;
+  border-radius: 9px;
+  font-size: 0.95em;
+  padding: 0.15em 0.7em;
+}
+.msg-priority {
+  font-size: 0.95em;
+  padding: 0.18em 0.75em;
+  color: #fff;
+  border-radius: 8px;
+  background: #6153cc;
+  margin-left: auto;
+}
+.msg-priority-high { background: #e07c7c !important; }
+.msg-priority-medium { background: #e3c06e !important; }
+.msg-priority-low { background: #6ee3a4 !important; }
+.no-msg {
+  color: #aaa;
+  font-style: italic;
+}
